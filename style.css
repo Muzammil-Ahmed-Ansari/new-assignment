@@ -1,0 +1,215 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    /* background-image: url("background.jpg"); */
+  }
+  .page1{
+    background-image: url("background.jpg");
+  }
+  /* Navbar styles */
+  .navbar {
+    background-color: #0065c3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px;
+    width: 1320px;
+    position: relative;
+    top: 0%;
+    position: fixed;
+  }
+  
+  .logo img {
+    max-height: 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 30px;
+    position: relative;
+    left: 20px;
+    margin:0px 16px 0px 0px
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    font: 16px;
+  }
+  .buy-button {
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 20px;
+    flex-direction: end;
+    margin-left: 490px;
+  }
+  
+  .buy {
+    text-decoration: none;
+    color: #0065c3;
+    font-weight: bold;
+  }
+  
+  .buy:hover {
+    /* color: blue; */
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+    }
+  
+    .nav-links li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  body{
+    background-image: url("background.jpg");
+
+    
+  }
+  .hero-section{
+    background-image: url("2bottles.webp");
+    height: 529px;
+    width: 506px;
+background-size: cover;
+background-color:white;
+margin-left: 40px;
+background-color: #0065c3;
+  }
+.tag{
+    height: 481px;
+    width: 500px;
+    display: flex;
+    margin-left: 600px;
+    margin-top: 135px;
+    background-image: url("applemusic.webp");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+button{
+    background-color: blueviolet;
+    position: relative;
+    left: 65%;
+    border-radius: 10px;
+}
+/* next page */
+.page2{
+    background-color: black;
+}
+.parent{
+    height: 640px;
+    display:flex;
+    background-position: center
+    /* margin:5px; */
+    
+
+    
+}
+.black{
+    background-image: url("second\ bottle.webp");  
+    background-repeat: no-repeat;
+    /* border: 2px solid red; */
+    height: 510px;
+    width:400px;
+    background-position: center;
+    margin-left: 290px;
+    margin-top: 120px;
+}
+.anotherdiv{
+background-image: url("zero\ pic.webp");
+background-size: cover;
+/* border: 2px solid yellow; */
+height: 400px;
+width: 400px;
+margin-top: 200px;
+}
+/* next page */
+.page3{
+    background-color:#0b3480
+}
+.parent{
+    display: flex;
+}
+.bottle{
+    height: 600px;
+    width: 430px;
+    margin-top: 30px;
+    margin-left: 200px;
+    background-image: url("bottles\ 3.webp");
+    background-size: cover;
+}
+.nitro{
+    height: 480px;
+    width: 500px;
+    margin-top: 140px;
+    background-image: url("nitro.webp");
+    background-size: cover;
+    
+}
+/* next page */
+.page4{
+    background-color:#184385
+}
+.parent{
+    border: 2px solid black;
+    height: 640px;
+    display: flex;
+}
+.bottle{
+    height: 600px;
+    width: 490px;
+    margin-top: 30px;
+    margin-left: 200px;
+    background-image: url("bottle4.webp");
+    background-size: cover;
+}
+.what{
+    height: 450px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-bottom: 60px;
+    background-image: url("what4.webp");
+    background-size: cover;
+    
+}
+
+/* next page */
+.page5{
+    background-color:#0065c3;
+}
+.parent{
+    height: 660px;
+    display: flex;
+}
+.text{
+   height: 600px;
+   width: 530px;
+   margin-top: 30px;
+   margin-left: 60px;
+   background-image: url("5all.webp");
+   background-size: cover;
+}
+.bottles{
+    height: 450px;
+    width: 550px;
+    margin-top: 200px;
+    margin-left: 540px;
+    margin-bottom: 60px;
+    background-image: url("5bottles.webp");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
